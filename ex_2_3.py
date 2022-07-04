@@ -1,0 +1,7 @@
+spisok_1 = ('Lamborgini', 17, '4456', 2020, 'Paris', 'USA', 11, 23)
+spisok_2 = ('Ferrari', 17, 4456, 2021, 'Paris', 'UK', 777, 23)
+spisok_3 = set(spisok_1)
+print(spisok_3)
+spisok_4 = set(spisok_2)
+print(spisok_4)
+print(spisok_4.difference(spisok_3))
